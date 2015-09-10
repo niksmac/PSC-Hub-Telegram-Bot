@@ -31,7 +31,7 @@ api.on('message', function(message)
   if(message.text == '/start') {
     api.sendMessage({
       chat_id: message.chat.id,
-      text: 'Yes lets start :) '
+      text: "Yes lets start :) \n \n /quiz - Start a Quiz section \n /statistics - Get my statistics \n /help - Get help from people behind PSC HUB \n /about - about the developers \n /pegke - A Customer Loyalty Software\n /end - Stop Quiz\n"
     });
   } else if(message.text == '/quiz') {
 
@@ -109,7 +109,7 @@ api.on('message', function(message)
       chat_id: message.chat.id,
       text: 'Pegke Everything your Business need to create a Successful Loyalty Program and build Customer Relationships https://pegke.com'
     });
-  } else if(message.text == '/Report') {
+  } else if(message.text == 'Report') {
     api.sendMessage({
       chat_id: message.chat.id,
       text: 'We are working on it, please contact our admin @niksmac or @sibizulu if you have any suggestions.'
@@ -136,7 +136,7 @@ api.on('message', function(message)
   } else {
     api.sendMessage({
       chat_id: message.chat.id,
-      text: message.text ? message.text : 'This message doesn\'t contain text :('
+      text: "Bots are simply Telegram accounts operated by software – not people – and they'll often have Artificial intelligence features. \nBut, sorry I really dont know what to do with -" + message.text + "-"
     });
   }
 
