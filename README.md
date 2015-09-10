@@ -9,9 +9,9 @@ We will be glad to take your feedback, letting us improve the psc questions app 
 
 *Enjoy PSC Hub, challenging you on your knowledge.*
 
-![enter image description here](http://i.imgur.com/P77XnDu.png)
+![PSC HUB - Kerala PSC Questions](http://i.imgur.com/P77XnDu.png)
 
-This app will be ideal for specialized exams in KPSC like - 
+This app will be ideal for specialized exams in KPSC like -
 
  1. LD Clerk
  2. Vocational Higher Secondary Teacher
