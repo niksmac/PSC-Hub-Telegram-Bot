@@ -1,0 +1,29 @@
+{
+  "name": "PSC-Hub-Telegram-Bot",
+  "version": "0.0.0",
+  "description": "PSC Hub Telegram Bot",
+  "main": "index.js",
+  "dependencies": {
+    "telegram-bot-api": "~0.3.2",
+    "mongodb": "~2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Mohan nikhil@lightrains.com",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niksmac/PSC-Hub-Telegram-Bot.git"
+  },
+  "keywords": [
+    "psc",
+    "hub",
+    "telegram",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/niksmac/PSC-Hub-Telegram-Bot/issues"
+  }
+}
