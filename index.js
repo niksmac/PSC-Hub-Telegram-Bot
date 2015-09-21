@@ -1,5 +1,6 @@
 var telegram = require('telegram-bot-api');
 var request = require('ajax-request');
+var t_token = require('./telegram-token.js');
 var MongoClient = require('mongodb').MongoClient
   , assert = require('assert');
 
@@ -8,13 +9,11 @@ var url = 'mongodb://localhost:27017/pschub';
 // Use connect method to connect to the Server
 MongoClient.connect(url, function(err, db) {
   assert.equal(null, err);
-  console.log("Connected correctly to server");
-  //insertQuestions(db, function() {});
+  console.log("Connected correctly to MongoDB");
 });
 
-
 var api = new telegram({
-  token: '<< Bot Token Here>>',
+  token: t_token.token(),
   updates: {
     enabled: true,
     get_interval: 40
@@ -28,8 +27,6 @@ var getRandom = function getRandomArbitrary() {
 api.on('message', function(message)
 {
   var chat_id = message.chat.id;
-
-  //console.log(message);
   message.text = message.text ? message.text : "this is bad";
 
   if(message.text == '/start') {
