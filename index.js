@@ -28,6 +28,10 @@ var getRandom = function getRandomArbitrary() {
 api.on('message', function(message)
 {
   var chat_id = message.chat.id;
+
+  //console.log(message);
+  message.text = message.text ? message.text : "this is bad";
+
   if(message.text == '/start') {
     api.sendMessage({
       chat_id: message.chat.id,
