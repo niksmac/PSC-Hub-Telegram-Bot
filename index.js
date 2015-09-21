@@ -14,7 +14,7 @@ MongoClient.connect(url, function(err, db) {
 
 
 var api = new telegram({
-  token: '131126999:AAFsZvqcBpVXg_FKxybFPGnyKxc2M1vt4dE',
+  token: '<< Bot Token Here>>',
   updates: {
     enabled: true,
     get_interval: 40
