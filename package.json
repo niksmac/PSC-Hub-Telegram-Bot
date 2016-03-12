@@ -4,8 +4,10 @@
   "description": "PSC Hub Telegram Bot",
   "main": "index.js",
   "dependencies": {
-    "telegram-bot-api": "~0.3.2",
-    "mongodb": "~2.0"
+    "ajax-request": "^1.2.1",
+    "mongodb": "~2.0",
+    "pm2": "^1.0.2",
+    "telegram-bot-api": "~0.3.2"
   },
   "devDependencies": {},
   "scripts": {

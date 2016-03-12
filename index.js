@@ -16,7 +16,8 @@ var api = new telegram({
   token: t_token.token(),
   updates: {
     enabled: true,
-    get_interval: 40
+    get_interval: 40,
+    limit: 5
   }
 });
 
@@ -68,7 +69,7 @@ api.on('message', function(message)
       // Find some documents
       collection.ensureIndex( { _id : 1, uid: 1} );
       collection.find({uid: message.from.id}).toArray(function(err, docs) {
-        var corrAns = docs[0].question.ans,
+        var corrAns = docs[0].question.ans || 'x',
             text = '',
             reply = message.text,
             lastQ = docs[0].question.qid;
@@ -226,6 +227,3 @@ var findRandomQuestion = function(db, callback) {
     callback(docs[0]);
   });
 }
-
-
-
