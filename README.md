@@ -26,8 +26,3 @@ This app will be ideal for specialized exams in KPSC like -
  9. Stenographer
 
 This page/app is not affiliated with [Kerala Public Service Commission](http://www.keralapsc.gov.in/).
-
-Please check Pegke [Customer Loyalty & Retention Management Platform](https://pegke.com)
-
-
-Check this fantastic product, Pegke is an easy to use Customer Loyalty and Retention Management Platform, beneficial to both the business and the customer. It integrates with merchant POS systems to give consumers a single identity to earn business-specific rewards across thousands of businesses. Everything your Business need to create a Successful Loyalty Program and build Customer Relationships. https://pegke.com
